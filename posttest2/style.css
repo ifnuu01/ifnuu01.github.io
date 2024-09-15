@@ -290,16 +290,4 @@ input[type="radio"] {
   .container-summary {
     padding: 0.3em;
   }
-
-  label {
-    font-size: 0.8em;
-  }
-
-  .total p {
-    font-size: 0.8em;
-  }
-
-  .title-metode-pembayaran {
-    font-size: 0.8em;
-  }
 }
