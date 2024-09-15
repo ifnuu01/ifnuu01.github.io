@@ -54,6 +54,10 @@ td {
   width: 60%;
 }
 
+.info {
+  margin-bottom: 1em;
+}
+
 .info a {
   color: #894a45;
 }
