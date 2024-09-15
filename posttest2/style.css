@@ -276,6 +276,14 @@ input[type="radio"] {
   label {
     font-size: 0.8em;
   }
+
+  .total p {
+    font-size: 0.8em;
+  }
+
+  .title-metode-pembayaran {
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (max-width: 340px) {
