@@ -272,10 +272,18 @@ input[type="radio"] {
   .info-isi p {
     font-size: 0.8em;
   }
+
+  label {
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (max-width: 340px) {
   .container-summary {
     padding: 0.3em;
+  }
+
+  label {
+    font-size: 0.8em;
   }
 }
