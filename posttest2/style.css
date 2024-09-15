@@ -34,6 +34,10 @@ body {
   display: flex;
   justify-content: center;
   margin: 2em auto 0 auto;
+  background-color: #ffff;
+  box-shadow: 0 0 10px #898787;
+  padding: 1em;
+  border-radius: 0.5em;
 }
 
 .info-data p,
