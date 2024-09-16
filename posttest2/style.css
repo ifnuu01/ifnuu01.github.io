@@ -14,10 +14,10 @@
   justify-content: space-around;
   border-radius: 1.5em;
   align-items: center;
-  padding: 1em 2em;
+  padding: 3em 2em;
   background-color: #f0f0f0;
   box-shadow: 0 0 10px #898787;
-  height: 90vh;
+  height: 100%;
 }
 
 body {
