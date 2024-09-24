@@ -448,6 +448,7 @@ input, textarea{
     }
 
     .navbar-menu a{
+        color: #1E1F24;
         font-size: 1.7em;
         font-weight: 600;
     }
