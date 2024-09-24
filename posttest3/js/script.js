@@ -3,10 +3,29 @@ const burger = document.querySelector('.burger');
 const mode = document.querySelector('.sun .fa-solid');
 const form = document.getElementById('contactForm');
 const shop = document.querySelector('.shop-cart');
+const btnLogin = document.querySelector('.btn-login');
+const icons = document.querySelectorAll('.icons .fas');
 
 
+shop.addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Maaf, fitur ini belum tersedia');
+});
 
-burger.addEventListener('click', () => {
+btnLogin.addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Maaf, fitur ini belum tersedia');
+});
+
+icons.forEach(icon => {
+    icon.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('Maaf, fitur ini belum tersedia');
+    });
+});
+
+burger.addEventListener('click', (e) => {
+    e.preventDefault();
     navbar.classList.toggle('active');
 });
 
@@ -18,8 +37,8 @@ document.addEventListener('click', (e) => {
 
 console.log(mode);
 
-mode.addEventListener('click', () => {
-    console.log('clicked');
+mode.addEventListener('click', (e) => {
+    e.preventDefault();
     document.body.classList.toggle('blackmode');
     mode.classList.toggle('fa-sun');
     mode.classList.toggle('fa-moon');
@@ -39,8 +58,3 @@ form.addEventListener('submit', (event) => {
 
     window.open(whatsappUrl, '_blank');
 });
-
-shop.addEventListener('click', () => {
-    alert('This feature is not available yet');
-});
-
