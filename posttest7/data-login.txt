@@ -1,0 +1,14 @@
+berikut adalah username dan pass admin :
+
+username = admin
+password = admin123
+
+
+
+untuk user :
+
+username = ifnu
+password = 12345678
+
+username = ucup
+password = 12345678
