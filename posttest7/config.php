@@ -100,6 +100,8 @@ function login(){
         } else {
             echo "<script>alert('Invalid username or password.');</script>";
         }
+    }else{
+        echo "<script>alert('Invalid username or password.');</script>";
     }
     
 }
