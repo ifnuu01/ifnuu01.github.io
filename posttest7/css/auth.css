@@ -76,6 +76,7 @@ form .input{
 input{
     outline: 0;
     width: 100%;
+    background-color: var(--primary-color);
     border: 0;
     border-bottom: 1px solid #b3b3b3;
     margin: 0 0 1em;
